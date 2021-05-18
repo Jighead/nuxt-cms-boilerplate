@@ -2,6 +2,7 @@
 title: Test test test and more test
 description: Remove all of the .md-files in the /content folder and go at it!
 ---
+![](/img/20200809_104258.jpg)
 
 ## Sit liquentibus sinu verbis et spatiarer laedar
 
@@ -24,7 +25,7 @@ fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
 solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
 oris ille convicia castique.
 
-```js{1,4}[posts.vue]
+```js{1,4}\[posts.vue]
 formatDate(dateString) {
   const date = new Date(dateString)
   return date.toLocaleDateString(process.env.lang) || ''
